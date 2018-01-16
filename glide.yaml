@@ -1,0 +1,33 @@
+package: github.com/sniperkit/xfeed
+import:
+- package: github.com/abbot/go-http-auth
+- package: github.com/astaxie/beego
+  subpackages:
+  - config
+  - context
+  - session
+  - toolbox
+- package: github.com/barakmich/glog
+- package: github.com/bradfitz/gomemcache
+  subpackages:
+  - memcache
+- package: github.com/fzzy/radix
+  subpackages:
+  - extra/pubsub
+  - redis
+- package: github.com/gorilla/websocket
+- package: github.com/hashicorp/go-msgpack
+  subpackages:
+  - codec
+- package: github.com/hashicorp/go-version
+- package: github.com/hashicorp/yamux
+- package: github.com/jmcvetta/neoism
+- package: github.com/mitchellh/mapstructure
+- package: github.com/mitchellh/osext
+- package: github.com/mitchellh/packer
+  subpackages:
+  - common/json
+- package: github.com/robertkrimen/otto
+- package: github.com/sniperkit/xutil
+  subpackages:
+  - plugin/format/json

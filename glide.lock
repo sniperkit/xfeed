@@ -1,0 +1,95 @@
+hash: bb0bddfd89cbd0a36e4cfa1fecc6135bf79102db9ff98d4fd65576ce9fb4ac4d
+updated: 2018-01-16T16:33:58.945878629+01:00
+imports:
+- name: github.com/abbot/go-http-auth
+  version: b6a92f468f2b01961e796d20e3ec5bbb8a8297d6
+- name: github.com/astaxie/beego
+  version: f16688817aa428d10361394015b40d096b680542
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - session
+  - toolbox
+  - utils
+- name: github.com/barakmich/glog
+  version: fafcb6128a8a2e6360ff034091434d547397d54a
+- name: github.com/bradfitz/gomemcache
+  version: 1952afaa557dc08e8e0d89eafab110fb501c1a2b
+  subpackages:
+  - memcache
+- name: github.com/davecgh/go-spew
+  version: 04cdfd42973bb9c8589fd6a731800cf222fde1a9
+  subpackages:
+  - spew
+- name: github.com/fzzy/radix
+  version: 3528e87a910c6730810cec1be187f989d7d9442a
+  subpackages:
+  - extra/pubsub
+  - redis
+  - redis/resp
+- name: github.com/gorilla/websocket
+  version: 292fd08b2560ad524ee37396253d71570339a821
+- name: github.com/hashicorp/go-msgpack
+  version: fa3f63826f7c23912c15263591e65d54d080b458
+  subpackages:
+  - codec
+- name: github.com/hashicorp/go-version
+  version: 4fe82ae3040f80a03d04d2cccb5606a626b8e1ee
+- name: github.com/hashicorp/yamux
+  version: 683f49123a33db61abfb241b7ac5e4af4dc54d55
+- name: github.com/jmcvetta/neoism
+  version: 2ffb5c69feb355227c6ee8679768d7289e6d7193
+- name: github.com/jmcvetta/randutil
+  version: 2bb1b664bcff821e02b2a0644cd29c7e824d54f8
+- name: github.com/kr/pretty
+  version: cfb55aafdaf3ec08f0db22699ab822c50091b1c4
+- name: github.com/kr/text
+  version: 7cafcd837844e784b526369c9bce262804aebc60
+- name: github.com/mitchellh/mapstructure
+  version: 06020f85339e21b2478f756a78e295255ffa4d6a
+- name: github.com/mitchellh/osext
+  version: 5e2d6d41470f99c881826dedd8c526728b783c9c
+- name: github.com/mitchellh/packer
+  version: e222d60b5a41da15c8c7b4c7c23a10effb7fe5d5
+  subpackages:
+  - common/json
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
+- name: github.com/robertkrimen/otto
+  version: 3b44b4dcb6c00477273595c312908e2412d07da6
+  subpackages:
+  - ast
+  - dbg
+  - file
+  - parser
+  - registry
+  - token
+- name: github.com/sniperkit/xutil
+  version: 1bd79603cf1bcc37bdbacccc0f9f1c31978ac552
+  subpackages:
+  - plugin/format/json
+- name: github.com/stretchr/testify
+  version: 4d4bfba8f1d1027c4fdbe371823030df51419987
+  subpackages:
+  - assert
+- name: golang.org/x/crypto
+  version: 9419663f5a44be8b34ca85f08abc5fe1be11f8a3
+  subpackages:
+  - bcrypt
+  - blowfish
+- name: golang.org/x/net
+  version: 66aacef3dd8a676686c7ae3716979581e8b03c47
+  subpackages:
+  - context
+- name: gopkg.in/jmcvetta/napping.v3
+  version: 4c7b4b235c63152afa9a1c6384e708e0fbfd77ca
+- name: gopkg.in/sourcemap.v1
+  version: 6e83acea0053641eff084973fee085f0c193c61a
+  subpackages:
+  - base64vlq
+testImports: []
